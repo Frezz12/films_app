@@ -15,6 +15,8 @@ export const Header: React.FC = () => {
         return "Фильмы";
       case "/settings":
         return "Настройки";
+      case "/edit":
+        return "Редактировать";
       case "/watching":
         return "Продолжить";
       case "/watched":

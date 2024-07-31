@@ -8,7 +8,7 @@ import archive from '../../assets/open-folder.png'
 export const Navigation = () => {
   return (
     <>
-    <div className="sticky bottom-0 px-4 bg-buttonBg w-full z-50 border-t-[1px] border-white border-opacity-20">
+    <div className="fixed bottom-0 px-4 bg-buttonBg w-full z-50 border-t-[1px] border-white border-opacity-20">
       <div className="flex items-center justify-center">
         <nav>
           <ul className="flex items-center justify-center space-x-11 py-6">
